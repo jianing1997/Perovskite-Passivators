@@ -1,0 +1,25 @@
+name: perovskite-passivators
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - numpy=1.19.2
+  - scipy
+  - pandas=1.1.5
+  - matplotlib
+  - pillow
+  - scikit-learn=0.24.2
+  - networkx
+  - tqdm
+  - pyyaml
+  - joblib
+  - jupyterlab
+  - rdkit=2020.09.1
+  - pytorch=1.7.1
+  - cudatoolkit=10.2
+  - pip
+  - pip:
+      - pytorch-lightning==1.0.2
+      - mordred==1.2.0
+

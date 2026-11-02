@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+Thumbs.db
+
+# Runtime data and model artifacts are deposited separately.
+/data/
+logs/
+results/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+*.csv
+runtime_assets/pretrained_models/
+jtvae_finetuning/chem/chem_utils/NP_Score/publicnp.model.gz
+jtvae_finetuning/chem/chem_utils/SA_Score/fpscores.pkl.gz
+
+# Keep the small vocabulary required by the released workflow.
+!runtime_assets/
+!runtime_assets/data/
+!runtime_assets/data/chem/
+!runtime_assets/data/chem/zinc/
+!runtime_assets/data/chem/zinc/orig_model/
+!runtime_assets/data/chem/zinc/orig_model/vocab.txt
+# Office temporary files.
+~$*
